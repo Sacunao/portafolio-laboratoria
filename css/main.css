@@ -1,0 +1,16 @@
+/*----------------HEADER---------------------
+.menu{
+	background-color: #FFFFFF;
+}
+header nav .portafolio{
+	color: #F05F40;
+}
+.list{
+	color: #000000;
+}*/
+.hola{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 15% 10%;
+}
