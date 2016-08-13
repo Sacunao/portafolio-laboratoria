@@ -14,3 +14,17 @@ header nav .portafolio{
 	background-repeat: no-repeat;
 	padding: 15% 10%;
 }
+.menu{
+	background-color: white;
+}
+.navbar .navbar-nav .nav-item .list{
+	color: gray;
+}
+.navbar .portafolio{
+	color: gray;
+}
+.conoce{
+ background-color: #F05F40;
+ border-radius: 70px;
+ color: white;
+}
