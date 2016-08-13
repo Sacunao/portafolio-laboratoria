@@ -111,10 +111,13 @@ body{
 }
 
 /*--------FOOTER----------*/
+.contact{
+	padding: 0% 25%
+}
 .contac-ico {
 	font-size: 2em;
 }
 
 footer {
-	padding: 7%;
+	padding: 5% 0%;
 }
