@@ -1,30 +1,120 @@
-/*----------------HEADER---------------------
-.menu{
-	background-color: #FFFFFF;
+/*------Se repiten----------*/
+body{
+	font-size: 16px;
 }
-header nav .portafolio{
+.line{
+	width: 4em;
+	border: 2px solid #F05F40;
+	margin: 1em auto;
+}
+
+.line-white{
+	width: 4em;
+	border: 2px solid #FFFFFF;
+	margin: 1em auto;
+}
+.bg-portafolio{
+	background-color: #F05F40;
+}
+.text-portafolio{
 	color: #F05F40;
 }
-.list{
-	color: #000000;
-}*/
-.hola{
+.text-white{
+	color: #FFFFFF;
+}
+.text-opacity{
+	color: rgba(255, 255, 255, 0.7);
+}
+.bg-black{
+	background-color: #000000;
+}
+/*--------HEADER----------*/
+.bg-image{
 	background-image: url(../img/header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 15% 10%;
 }
-.menu{
-	background-color: white;
-}
-.navbar .navbar-nav .nav-item .list{
-	color: gray;
-}
 .navbar .portafolio{
+	color: #F05F40;
+}
+.navbar #bs-example-navbar-collapse-1 .list{
 	color: gray;
 }
-.conoce{
- background-color: #F05F40;
- border-radius: 70px;
- color: white;
+.navbar #bs-example-navbar-collapse-1 .list:hover{
+	color: #F05F40;
+}
+.boton{
+	border: none;
+	border-radius: 70px;
+}
+.boton:hover{
+	background-color: #e75232;
+	color: #FFFFFF;
+}
+/*--------PRESENTACIÓN----------*/
+.presentacion{
+	margin-bottom: 0px;
+}
+#sobremi{
+	padding: 5% 20%;
+}
+.name{
+	font-size: 3em;
+}
+/*--------SERVICIOS----------*/
+.servicios{
+	padding: 5% 0%;
+}
+.icon{
+	font-size: 3em;
+}
+.tipos-servicios{
+	padding: 10% 0%;
+} /*
+/*--------NUEVOS PROYECTOS----------*/
+.img {
+	width: 100%;
+	display: flex;
+}
+.newcategory{ 
+	opacity:0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: auto;
+} 
+
+.overlay:hover .newcategory{ 
+	opacity:0.9; 
+	color:#FFFFFF; 
+	font-weight:700;
+	background-color: #F05F40;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 100%; 
+}
+.overlay:hover .newcategory h4{ 
+	color: rgba(255, 255, 255, 0.7);
+}
+.no-p{
+	padding: 0px;
+}
+.github{
+	padding: 2em;
+	color: #FFFFFF;
+}
+.gitboton{
+	border: none;
+	border-radius: 70px;
+	margin-top: 1em;
+}
+
+/*--------FOOTER----------*/
+.contac-ico {
+	font-size: 2em;
+}
+
+footer {
+	padding: 7%;
 }

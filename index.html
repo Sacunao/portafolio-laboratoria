@@ -1,126 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Portafolio</title>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css"  href="fonts/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css"  href="css/main.css">
-</head>
-<body>
-	<header>
-	<nav class="navbar navbar-light bg-faded" role="navigation">
-
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapsing-navbar">
-        &#9776;
-    </button>
-
-    <div class="collapse navbar-toggleable-xs" id="collapsing-navbar">
-
-        <a class="navbar-brand" href="/">Logo</a>
-
-        <ul class="nav navbar-nav">
-
-
-                <li class="nav-item">
-                    <a href="/messages" class="nav-link">Messages</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="/logout" class="nav-link">Logout</a>
-                </li>
-
-        </ul>
-
-    </div>
-
-</nav>
-	<!--
-		<nav class="navbar navbar-dark bg-inverse  navbar-fixed-top menu">
-			<a class="portafolio navbar-brand" href="#">MI PORTAFOLIO</a>
-			<ul class="nav navbar-nav navbar-toggleable-sm pull-xs-right">
-				<li class="nav-item">
-					<a class="nav-link list" href="#">SOBRE MÍ<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link list" href="#">SERVICIOS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link list" href="#">MIS TRABAJOS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link list" href="#">CONTÁCTAME</a>
-				</li>
-			</ul>
-		</nav>-->
-	</header>
-	<!--hola-->
-	<section class="hola jumbotron">
-		<div class=" text-xs-center">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portafolio</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="fonts/css/font-awesome.css" type="text/css"> <!-- Porque aqui estan todos los icons de servicios -->
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand portafolio" href="#">MI PORTAFOLIO</a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="list" href="#sobremi"><strong>SOBRE MÍ</strong></a></li>
+							<li><a class="list" href="#"><strong>SERVICIOS</strong></a></li>
+							<li><a class="list" href="#"><strong>MIS TRABAJOS</strong></a></li>
+							<li><a class="list" href="#"><strong>CONTÁCTANOS</strong></a></li>				
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--Presentación-->	
+		<section class="bg-image jumbotron text-center presentacion">
 			<div class="container">
-				<h1 class="display-3">HOLA, MI NOMBRE ES KATY SOY CODER DE LABORATORIA</h1>
-				<hr>
-				<p>Estas interesado en desarrollar un sitio web o necesitas una fronted developer, yo te puedo ayudar con los diferentes que brindo</p>
-				<p><a class="btn btn-lg conoce" href="#" role="button">CONOCE MÁS</a></p>
+				<div>
+					<h2 class="name text-white"><strong>HOLA, MI NOMBRE ES SHEILA Y SOY CODER DE LABORATORIA</strong></h2>
+					<div class="line"></div>
+					<p class="text-opacity">Estas interesado en desarrollar un sitio web o necesitas una frontend develeper, yo te puedo ayudar con diferentes servicios que brindo.</p>
+					<button class="btn btn-lg boton bg-portafolio text-white" type="submit">CONOCE MÁS</button>
+				</div>	
 			</div>
-		</div>
-	</section>
-	<!--sobre mi-->	
-	<section>
-		<div id="sobremi" class="text-xs-center col-xs-12">
-			<h2>SOBRE MÍ</h2>
-			<hr>
-			<div>Soy egresada de Laboratoria salí con el título de fronted Jr. desarrollo páginas web HTML/ CSS/ Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las web que realizo.</div>
-		</div>	
-	</section>
-	<!--servicios-->
-	<section class="servicios text-xs-center">
-		<div class="container">
-			<h2>SERVICIOS</h2>
-			<hr>
-			<div class="row">
-				<div class="col-xs-12 col-md-3">
-					<a href="#"><i class="fa fa-diamond"></i></a>
-					<h2>Desarrollo de plantillas</h2>
-					<p>Desarrollo plantillas a medida con HTL5 / CSS3 / JS  </p>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<a href="#"><i class="fa fa-paper-plane"></i></a>
-					<h2>Campaña de Mailing</h2>
-					<p>Desarrrollo de plantillas para campañas por correo. </p>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<a href="#"><i class="fa fa-newspaper-o"></i></a>
-					<h2>Full websites</h2>
-					<p>Desarrollo websites completos y dinámicos.</p>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<a href="#"><i class="fa fa-heart"></i></a>
-					<h2>Aplicaciones Android</h2>
-					<p>Desarrollo aplicaciones Android</p>
+		</section>
+		<!--sobre mi-->	
+		<section class="bg-portafolio" >
+			<div class="container">
+				<div id="sobremi" class="text-center col-xs-12">
+					<h2 class="text-white">SOBRE MÍ</h2>
+					<div class="line-white"></div>
+					<div class="text-opacity">Soy egresada de Laboratoria salí con el título de Fronted Developer Jr. desarrollo páginas web HTML/ CSS/ Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las web que desarrollo.</div>
 				</div>
 			</div>
-     	</div>
-	</section>
-	<!--servicios-->
-	<section>
-		<div class="container-fluid">
-			div
-			
-		</div>
-	</section>
+		</section>
+		<!--servicios-->
+		<section class="servicios text-center">
+			<div class="container">
+				<h2>Servicios</h2>
+				<div class="line"></div>
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<div class="tipos-servicios">
+							<a href="#"><i class="fa fa-diamond icon text-portafolio"></i></a>
+							<h3>Desarrollo de plantillas</h3>
+							<p>Desarrollo plantillas a medida con HTL5 / CSS3 / JS  </p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<div class="tipos-servicios">
+							<a href="#"><i class="fa fa-paper-plane icon text-portafolio"></i></a>
+							<h3>Campaña de Mailing</h3>
+							<p>Desarrrollo de plantillas para campañas por correo. </p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<div class="tipos-servicios">
+							<a href="#"><i class="fa fa-newspaper-o icon text-portafolio"></i></a>
+							<h3>Full websites</h3>
+							<p>Desarrollo websites completos y dinámicos.</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<div class="tipos-servicios">
+							<a href="#"><i class="fa fa-heart icon text-portafolio"></i></a>
+							<h3>Aplicaciones Android</h3>
+							<p>Desarrollo aplicaciones Android</p>
+						</div>
+					</div>
+				</div>
+	     	</div>
+		</section>
+		<!--Nuevos Proyectos-->
+		<section class="proyecto text-center bg-black">
+			<div class="conteiner-fluid">
+				<div class="row">
+					<div class="col-md-4 overlay no-p">
+						<img src="img/1.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+					<div class="col-md-4 overlay no-p">
+						<img src="img/2.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+					<div class="col-md-4 overlay no-p">
+						<img src="img/3.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 overlay no-p">
+						<img src="img/4.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+					<div class="col-md-4 overlay no-p">
+						<img src="img/5.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+					<div class="col-md-4 overlay no-p">
+						<img src="img/6.jpg" class="img">
+						<div class="newcategory">
+							<h4>CATEGORÍA</h4>
+							<h3>Nombre proyecto</h3>
+						</div>
+					</div>
+				</div>
+				<div class="github Text-white">
+					<h3>Si quieres saber saber más de mi proyecto revisa mi github</h3>
+					<button type="button" class="gitboton btn btn-lg btn-default git"><strong>VER MI GITHUB</strong></button>
+				</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div>
+					<h2 class="text-center">CONTÁCTAME</h2>
+					<div class="line"></div>
+					<p class="parrafo">¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial, dame una llamada o enviame un correo y te responderé lo más rápido que pueda!</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<i class="glyphicon glyphicon-earphone contac-ico"></i>
+						<div>986-363-622</div>
+					</div>
+					<div class="col-lg-6 text-center">
+						<i class="glyphicon glyphicon-envelope contac-ico"></i>
+						<div>shinta_15@hotmail.com</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 
-
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-
-	<script type="text/javascript" src="js/collapse.js"></script>
-	<script type="text/javascript" src="js/dropdown.js"></script>
-	<script type="text/javascript" src="js/util.js"></script>
-	<script type="text/javascript" src="js/tether.js"></script>
-</body>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</body>
 </html>
